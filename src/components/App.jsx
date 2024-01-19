@@ -1,4 +1,5 @@
 import '../App.css';
+import AnsattKort from './AnsattKort';
 import TekstBoks from './TekstBols';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <div className="h-screen bg-slate-800">
       <h1>Hex App</h1>
       <p>Dette er ...</p>
-      <TekstBoks />
+      <AnsattKort />
     </div>
   )
 }
